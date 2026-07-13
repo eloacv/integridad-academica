@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#F43F8E" name="theme-color"/>
+<meta content="Nova: una experiencia interactiva sobre integridad académica y uso responsable de la IA." name="description"/>
+<title>Nova: ¿Qué profesional quieres ser?</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&amp;family=Nunito:wght@600;700;800&amp;family=Press+Start+2P&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css?v=20260712-2" rel="stylesheet">
+</link></head>
+<body>
+<a class="skip-link" href="#app">Saltar al contenido</a>
+<div aria-hidden="true" class="pixel-sky">
+<i class="pixel-star s1"></i><i class="pixel-star s2"></i><i class="pixel-star s3"></i>
+<i class="pixel-star s4"></i><i class="pixel-star s5"></i><i class="pixel-star s6"></i>
+</div>
+<header class="topbar">
+<a aria-label="Ir al inicio" class="home-link" href="#" id="brand-home"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg><span>INICIO</span></a>
+<div aria-label="Progreso del recorrido" class="progress-wrap">
+<span id="progress-text">NIVEL 1 / 8</span>
+<div aria-hidden="true" class="progress-track" id="progress-bar">
+<span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span>
+<span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span>
+</div>
+</div>
+</header>
+<main class="app-shell" id="app">
+<!-- PANTALLA 1 -->
+<section aria-labelledby="title-1" class="screen is-active" data-screen="1">
+<div class="opening-scene">
+<div class="opening-copy">
+<p class="eyebrow">RETO INTERACTIVO · 5 MIN</p>
+<article aria-label="Dato sobre el uso de inteligencia artificial entre estudiantes universitarios" class="stat-story">
+<span aria-hidden="true" class="stat-icon">✦</span>
+<div class="stat-content">
+<p class="stat-lead">La IA ya forma parte de la vida universitaria.</p>
+<div class="stat-highlight" aria-label="86 por ciento">
+<strong class="stat-number">86<span>%</span></strong>
+<p>de estudiantes de educación superior usa IA regularmente en sus estudios.</p>
+</div>
+<p class="stat-sample">El estudio reunió respuestas de <strong>más de 3800 estudiantes de 16 países</strong>.</p>
+<p class="stat-reflection">La conversación ya no gira en torno a usarla o no. <strong>Ahora importa cómo decides usarla.</strong></p>
+<p class="stat-source">Fuente: <a href="https://www.digitaleducationcouncil.com/post/what-students-want-key-results-from-dec-global-ai-student-survey-2024" target="_blank" rel="noopener noreferrer" aria-label="Abrir la fuente del Digital Education Council en una pestaña nueva">Digital Education Council (2024) <span aria-hidden="true">↗</span></a></p>
+</div>
+</article>
+<div class="opening-question">
+<span class="narrative-bridge">Y eso hace que una pregunta cobre más importancia que nunca.</span>
+<h1 id="title-1">¿Qué profesional quieres llegar a ser?</h1>
+</div>
+<button class="btn btn-primary opening-cta" data-next="2">EMPEZAR RECORRIDO <span aria-hidden="true">▸</span></button>
+</div>
+<aside aria-label="Presentación de Nova" class="nova-dialogue-stage">
+<div class="nova-speech hero-speech" hidden="" id="hero-speech">
+<strong id="hero-speech-title">¡Hola! Soy Nova.</strong>
+<span id="hero-speech-text"></span>
+</div>
+<div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-hero">
+<div class="nova-shadow"></div>
+<div class="nova-body">
+<img alt="Nova" src="assets/nova.png"/>
+<span aria-hidden="true" class="eyelid eyelid-left"></span>
+<span aria-hidden="true" class="eyelid eyelid-right"></span>
+<span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+<span aria-hidden="true" class="worry-mark">!</span>
+<span aria-hidden="true" class="sparkles"></span>
+</div>
+</div>
+</aside>
+</div>
+</section>
+<!-- PANTALLA 2 -->
+<section aria-labelledby="title-2" class="screen dilemma-screen" data-screen="2">
+<div class="screen-grid dilemma-grid">
+<div class="copy-block wide-copy">
+<p class="eyebrow">CAPÍTULO 2</p><p class="chapter-name">CUANDO EL TIEMPO APREMIA</p>
+<h2 id="title-2">Son las 11:45 p. m.</h2>
+<p class="scene-text">La tarea es para mañana. Apenas has empezado. ¿Qué haces?</p>
+<div class="choice-grid" id="dilemma-options" role="group" aria-label="Opciones para resolver el dilema">
+<button aria-pressed="false" class="choice-card" data-feedback="a" data-score="2">
+<span class="choice-letter">A</span><span>Copio información de internet y la entrego.</span>
+</button>
+<button aria-pressed="false" class="choice-card" data-feedback="b" data-score="5">
+<span class="choice-letter">B</span><span>Le pido a la IA que haga todo el trabajo.</span>
+</button>
+<button aria-pressed="false" class="choice-card" data-feedback="c" data-score="20">
+<span class="choice-letter">C</span><span>Uso la IA para entender el tema y escribo mi propia respuesta.</span>
+</button>
+<button aria-pressed="false" class="choice-card" data-feedback="d" data-score="15">
+<span class="choice-letter">D</span><span>Entrego lo que alcancé y explico qué herramientas utilicé.</span>
+</button>
+</div>
+<p class="choice-hint" id="dilemma-hint">Puedes cambiar tu elección antes de continuar.</p>
+</div>
+<aside class="nova-stage dilemma-stage mood-think" data-mood="pensando">
+<div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-dilemma">
+<div class="nova-shadow"></div>
+<div class="nova-body">
+<img alt="Nova" src="assets/nova.png"/>
+<span aria-hidden="true" class="eyelid eyelid-left"></span>
+<span aria-hidden="true" class="eyelid eyelid-right"></span>
+<span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+<span aria-hidden="true" class="worry-mark">!</span>
+<span aria-hidden="true" class="sparkles"></span>
+</div>
+</div>
+<div aria-live="polite" class="speech-bubble dilemma-speech" id="dilemma-nova">Respóndelo sin apuro. Puedes explorar otra opción antes de continuar.</div>
+<button class="btn btn-primary dilemma-continue" hidden="" id="dilemma-next">CONTINUAR <span aria-hidden="true">▸</span></button>
+</aside>
+</div>
+</section>
+<!-- PANTALLA 3 -->
+<section aria-labelledby="title-3" class="screen values-scene" data-screen="3">
+  <div class="values-layout">
+    <header class="values-heading">
+      <div>
+        <p class="eyebrow">CAPÍTULO 3</p>
+        <p class="chapter-name">LO QUE NADIE VE</p>
+        <h2 id="title-3">La integridad empieza mucho antes de un examen.</h2>
+        <p class="lead">Cada decisión pequeña también dice algo sobre el profesional que estás construyendo.</p>
+      </div>
+      <div class="values-progress" aria-live="polite">
+        <span>VALORES DESCUBIERTOS</span>
+        <div class="values-dots" id="values-dots" aria-label="0 de 6 valores descubiertos">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <strong id="values-counter">0 / 6</strong>
+      </div>
+
+      <aside class="values-complete" id="values-complete" hidden aria-live="polite">
+        <div class="speech-bubble values-speech">Estos seis valores son la base de la integridad académica según el ICAI. No son reglas para memorizar: son decisiones que se practican todos los días.</div>
+        <div class="nova-character nova-idle" id="nova-values" aria-label="Nova celebra que descubriste los seis valores">
+          <div class="nova-shadow"></div>
+          <div class="nova-body"><img src="assets/nova.png" alt="Nova celebrando"><span aria-hidden="true" class="sparkles"></span></div>
+        </div>
+        <button class="btn btn-primary" data-next="4" id="values-next">CONTINUAR <span aria-hidden="true">▸</span></button>
+      </aside>
+    </header>
+
+    <p class="values-instruction">Haz clic en cada tarjeta para descubrir los seis valores fundamentales de la integridad académica.</p>
+
+    <div class="flip-grid values-grid" id="values-grid">
+      <button aria-pressed="false" class="flip-card" data-value="Honestidad">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">✦</span><b>Honestidad</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Honestidad</b><p>Actuar con verdad y sin engaños. Se refleja cuando presentas tu propio trabajo, reconoces las ideas de otras personas y das crédito a quien corresponde.</p></span>
+        </span>
+      </button>
+      <button aria-pressed="false" class="flip-card" data-value="Confianza">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">✦✦</span><b>Confianza</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Confianza</b><p>Permite aprender y colaborar. Crece cuando sabemos que el trabajo presentado es auténtico y que las mismas reglas se aplican para todos.</p></span>
+        </span>
+      </button>
+      <button aria-pressed="false" class="flip-card" data-value="Justicia">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">⚖</span><b>Justicia</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Justicia</b><p>Implica actuar con imparcialidad: criterios claros, sin favoritismos y con las mismas oportunidades para todas las personas.</p></span>
+        </span>
+      </button>
+      <button aria-pressed="false" class="flip-card" data-value="Respeto">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">▤</span><b>Respeto</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Respeto</b><p>También es reconocer el trabajo intelectual de otras personas. Citar una fuente es una forma de valorar las ideas de quienes contribuyeron antes.</p></span>
+        </span>
+      </button>
+      <button aria-pressed="false" class="flip-card" data-value="Responsabilidad">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">◆</span><b>Responsabilidad</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Responsabilidad</b><p>Implica asumir el propio trabajo, responder por las acciones realizadas y cuidar la integridad del aprendizaje.</p></span>
+        </span>
+      </button>
+      <button aria-pressed="false" class="flip-card" data-value="Valentía">
+        <span class="flip-inner">
+          <span class="flip-front"><span class="value-icon">★</span><b>Valentía</b><small>HAZ CLIC PARA DESCUBRIR</small></span>
+          <span class="flip-back"><b>Valentía</b><p>Es actuar de acuerdo con tus valores, incluso cuando la decisión correcta no es la más sencilla o puede traer dificultades.</p></span>
+        </span>
+      </button>
+    </div>
+
+    <p class="values-source">Basado en los valores fundamentales del <a href="https://www.academicintegrity.org/aws/ICAI/pt/sp/values" target="_blank" rel="noopener noreferrer">International Center for Academic Integrity (ICAI) ↗</a>.</p>
+
+  </div>
+</section>
+<!-- PANTALLA 4 -->
+<section aria-labelledby="title-4" class="screen myths-scene" data-screen="4">
+  <div class="myths-layout">
+    <div class="myths-main">
+      <header class="myths-heading">
+        <p class="eyebrow">CAPÍTULO 4</p>
+        <p class="chapter-name">ROMPIENDO MITOS</p>
+        <h2 id="title-4">Hay ideas que se repiten mucho…</h2>
+        <p class="lead">Pero repetir algo no lo convierte en verdad.</p>
+        <p class="myths-instruction">Decide si cada afirmación es verdad o mito.</p>
+      </header>
+
+      <div class="myths-progress" aria-label="Progreso de mitos">
+        <div>
+          <span>MITOS RESUELTOS</span>
+          <strong id="myth-progress-text">0 / 4</strong>
+        </div>
+        <div class="myths-progress-dots" id="myth-progress-dots" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+
+      <article class="myth-challenge" id="myth-challenge" aria-live="polite">
+        <span class="myth-step" id="myth-step">MITO 1 DE 4</span>
+        <h3 id="myth-question">“Si cambio algunas palabras, ya no es plagio”.</h3>
+        <div class="myth-choice-actions" id="myth-actions" role="group" aria-label="Elige verdad o mito">
+          <button type="button" data-myth-pick="verdad">VERDAD</button>
+          <button type="button" data-myth-pick="mito">MITO</button>
+        </div>
+        <div class="myth-explanation" id="myth-explanation" hidden></div>
+      </article>
+    </div>
+
+    <aside class="nova-stage myths-nova-stage" aria-label="Nova comenta los mitos">
+      <div class="speech-bubble myths-speech" id="myth-nova-speech">Lee la afirmación y elige sin pensarlo demasiado. Después veremos qué hay detrás.</div>
+      <div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-myths">
+        <div class="nova-shadow"></div>
+        <div class="nova-body">
+          <img alt="Nova" src="assets/nova.png"/>
+          <span aria-hidden="true" class="eyelid eyelid-left"></span>
+          <span aria-hidden="true" class="eyelid eyelid-right"></span>
+          <span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+          <span aria-hidden="true" class="worry-mark">!</span>
+          <span aria-hidden="true" class="sparkles"></span>
+        </div>
+      </div>
+      <button class="btn btn-primary myths-next" id="myth-next" hidden>SIGUIENTE MITO <span aria-hidden="true">▸</span></button>
+    </aside>
+  </div>
+</section>
+<!-- PANTALLA 5 -->
+<section aria-labelledby="title-5" class="screen stories-scene" data-screen="5">
+<div class="screen-grid story-layout">
+<div class="copy-block wide-copy">
+<p class="eyebrow">CAPÍTULO 5</p><p class="chapter-name">TÚ DECIDES</p>
+<h2 id="title-5">Tres personas. Tres decisiones.</h2>
+<p class="story-bridge">Ya distinguimos algunas ideas que parecen ciertas. Ahora veamos qué ocurre cuando esas ideas se convierten en decisiones.</p>
+<p class="lead">Elige qué haría cada persona y descubre qué deja su decisión.</p>
+<div aria-label="Progreso de historias" class="story-progress"><span class="active"></span><span></span><span></span></div>
+<article aria-live="polite" class="story-card" id="story-card">
+<div class="story-person" id="story-person">ANA · 1/3</div>
+<h3 id="story-title">No durmió y piensa copiar un trabajo entero.</h3>
+<blockquote id="story-quote">“Es solo uno. No le hago daño a nadie”.</blockquote>
+<div class="story-actions" id="story-actions" role="group" aria-label="Alternativas para la historia"></div>
+</article>
+</div>
+<aside class="nova-stage story-nova-stage" aria-label="Nova comenta cada decisión">
+<div class="speech-bubble story-speech" id="story-nova">Tres historias. No busques la respuesta perfecta: piensa en lo que deja cada decisión.</div>
+<div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-story">
+<div class="nova-shadow"></div>
+<div class="nova-body">
+<img alt="Nova" src="assets/nova.png"/>
+<span aria-hidden="true" class="eyelid eyelid-left"></span>
+<span aria-hidden="true" class="eyelid eyelid-right"></span>
+<span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+<span aria-hidden="true" class="worry-mark">!</span>
+<span aria-hidden="true" class="sparkles"></span>
+</div>
+</div>
+<button class="btn btn-primary story-next" hidden id="story-next">SIGUIENTE HISTORIA <span aria-hidden="true">▸</span></button>
+</aside>
+</div>
+</section>
+<!-- PANTALLA 6 -->
+<section aria-labelledby="title-6" class="screen time-screen" data-screen="6">
+  <header class="future-heading">
+    <div>
+      <p class="eyebrow">CAPÍTULO 6</p>
+      <p class="chapter-name">UN SALTO AL FUTURO</p>
+      <h2 id="title-6">Ninguna decisión termina cuando entregas la tarea.</h2>
+      <p class="future-bridge">Ya viste cómo una decisión pequeña deja huella. Ahora miremos hasta dónde puede llegar.</p>
+    </div>
+  </header>
+
+  <div class="impact-grid future-impact-grid" aria-label="Consecuencias de las decisiones académicas">
+    <article class="impact-card reveal-on-view"><span>01</span><h3>PARA TI</h3><p>Cuando llegue el momento de aplicar lo aprendido, solo podrás contar con lo que realmente sabes.</p></article>
+    <article class="impact-card reveal-on-view"><span>02</span><h3>COMPAÑEROS</h3><p>Cuando copiar se vuelve normal, el esfuerzo deja de distinguirse.</p></article>
+    <article class="impact-card reveal-on-view"><span>03</span><h3>UNIVERSIDAD</h3><p>La confianza en sus egresados también se construye con cada decisión.</p></article>
+    <article class="impact-card reveal-on-view"><span>04</span><h3>SOCIEDAD</h3><p>Las profesiones funcionan porque confiamos en quienes las ejercen.</p></article>
+  </div>
+
+  <section class="time-jump future-scene reveal-on-view" id="time-jump" aria-label="Salto narrativo al futuro">
+    <div class="future-copy">
+      <span class="future-kicker">AÑOS DESPUÉS…</span>
+      <h3>La universidad quedó atrás.</h3>
+      <p class="future-lead">Ahora otras personas confían en las decisiones que tomas.</p>
+      <p>Ya no entregas tareas. Elaboras informes, haces cálculos, emites diagnósticos o firmas documentos que pueden afectar a otras personas.</p>
+      <p class="future-closing">El profesional que eres mañana empieza con las decisiones que tomas hoy.</p>
+    </div>
+
+    <aside class="future-nova-stage" aria-label="Nova reflexiona sobre el futuro">
+      <div class="speech-bubble future-speech" id="future-nova-speech">La tarea quedó atrás. La decisión, no.</div>
+      <div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-future">
+        <div class="nova-shadow"></div>
+        <div class="nova-body">
+          <img alt="Nova" src="assets/nova.png"/>
+          <span aria-hidden="true" class="eyelid eyelid-left"></span>
+          <span aria-hidden="true" class="eyelid eyelid-right"></span>
+          <span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+          <span aria-hidden="true" class="worry-mark">!</span>
+          <span aria-hidden="true" class="sparkles"></span>
+        </div>
+      </div>
+      <button class="btn btn-primary future-next" data-next="7">CONTINUAR <span aria-hidden="true">▸</span></button>
+    </aside>
+  </section>
+</section>
+<!-- PANTALLA 7 -->
+<section aria-labelledby="title-7" class="screen ai-scene" data-screen="7">
+  <div class="ai-layout">
+    <div class="ai-main">
+      <header class="section-heading ai-heading">
+        <p class="eyebrow">CAPÍTULO 7</p>
+        <p class="chapter-name">IA CON CRITERIO</p>
+        <h2 id="title-7">La IA no es el problema.</h2>
+        <p class="lead">Después de mirar las consecuencias, queda una pregunta práctica: ¿la estás usando para aprender o para evitar aprender?</p>
+      </header>
+
+      <div class="sort-game" aria-label="Entrenamiento para clasificar usos de inteligencia artificial">
+        <div class="sort-game-topline">
+          <div>
+            <span>ENTRENAMIENTO</span>
+            <strong id="sort-progress">0 / 6</strong>
+          </div>
+          <p>Selecciona una situación y luego elige dónde va.</p>
+        </div>
+
+        <div class="example-pool" id="example-pool">
+          <button class="example-chip" data-type="forma">Explicarme un concepto difícil</button>
+          <button class="example-chip" data-type="reemplaza">Escribir todo el trabajo</button>
+          <button class="example-chip" data-type="forma">Crear preguntas para practicar</button>
+          <button class="example-chip" data-type="reemplaza">Inventar referencias</button>
+          <button class="example-chip" data-type="forma">Revisar claridad y redacción</button>
+          <button class="example-chip" data-type="reemplaza">Responder una evaluación</button>
+        </div>
+
+        <div class="sort-columns">
+          <button class="sort-bin good" data-bin="forma">
+            <strong>✓ ME AYUDA A APRENDER</strong>
+            <span>Me explica, me hace practicar o mejora algo que ya trabajé.</span>
+            <div class="bin-items"></div>
+          </button>
+          <button class="sort-bin bad" data-bin="reemplaza">
+            <strong>× HACE EL TRABAJO POR MÍ</strong>
+            <span>Produce la respuesta sin que yo construya el aprendizaje.</span>
+            <div class="bin-items"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="nova-stage ai-nova-stage" aria-label="Nova acompaña el entrenamiento">
+      <div class="speech-bubble ai-speech" id="sort-feedback">Selecciona una situación y luego elige dónde va.</div>
+      <div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-ai">
+        <div class="nova-shadow"></div>
+        <div class="nova-body">
+          <img alt="Nova" src="assets/nova.png"/>
+          <span aria-hidden="true" class="eyelid eyelid-left"></span>
+          <span aria-hidden="true" class="eyelid eyelid-right"></span>
+          <span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+          <span aria-hidden="true" class="worry-mark">!</span>
+          <span aria-hidden="true" class="sparkles"></span>
+        </div>
+      </div>
+      <button class="btn btn-primary ai-next" data-next="8" disabled id="sort-next">VER MI RESULTADO <span aria-hidden="true">▸</span></button>
+    </aside>
+  </div>
+</section>
+<!-- PANTALLA 8 -->
+<section aria-labelledby="title-8" class="screen final-scene" data-screen="8">
+  <div class="final-grid">
+    <div class="copy-block final-main">
+      <p class="eyebrow">CAPÍTULO 8</p>
+      <p class="chapter-name">EL PROFESIONAL QUE ESTÁS CONSTRUYENDO</p>
+      <h2 id="title-8">Tu recorrido termina aquí. Tus decisiones, no.</h2>
+
+      <div class="score-card">
+        <span>TU RECORRIDO</span>
+        <strong id="final-score">0/100</strong>
+        <div class="score-meter" aria-label="Puntaje obtenido"><div id="score-meter-fill"></div></div>
+        <div class="badge" id="score-badge">INSIGNIA</div>
+        <p id="score-message"></p>
+      </div>
+
+      <div class="pledge-card">
+        <h3>ELIJO APRENDER ANTES QUE APARENTAR.</h3>
+        <p>Me comprometo a:</p>
+        <ul>
+          <li>Reconocer el trabajo y las ideas de otras personas.</li>
+          <li>Usar la IA para aprender, no para reemplazar mi esfuerzo.</li>
+          <li>Construir un conocimiento que realmente sea mío.</li>
+        </ul>
+        <label class="pledge-check"><input id="pledge-check" type="checkbox"/> <span>Este compromiso representa cómo quiero actuar.</span></label>
+        <button class="btn btn-primary btn-xl" disabled id="pledge-button">ACEPTO EL RETO <span aria-hidden="true">▸</span></button>
+      </div>
+    </div>
+
+    <aside class="nova-stage final-nova-stage" aria-label="Nova cierra el recorrido">
+      <div class="speech-bubble final-speech" id="final-nova-speech">Llegaste hasta aquí. Eso ya dice algo de ti.</div>
+      <div aria-label="Nova, guía de la experiencia" class="nova-character nova-idle" id="nova-final">
+        <div class="nova-shadow"></div>
+        <div class="nova-body">
+          <img alt="Nova" src="assets/nova.png"/>
+          <span aria-hidden="true" class="eyelid eyelid-left"></span>
+          <span aria-hidden="true" class="eyelid eyelid-right"></span>
+          <span aria-hidden="true" class="thought-dots"><i></i><i></i><i></i></span>
+          <span aria-hidden="true" class="worry-mark">!</span>
+          <span aria-hidden="true" class="sparkles"></span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="form-section" hidden id="form-section">
+    <div class="form-header">
+      <p class="eyebrow">TU VOZ TAMBIÉN CUENTA</p>
+      <h3>Cuéntanos qué te llevas de este recorrido.</h3>
+      <p class="form-help">Tu respuesta nos ayudará a evaluar qué cambió después del recorrido.</p>
+    </div>
+    <div class="form-placeholder form-embed" id="form-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflMtxX1Ez6wdgO7AFJKkfVghx-CT4uWWisQrmIp4wbhwprbg/viewform?embedded=true" title="Formulario de retroalimentación de NOVA" loading="lazy" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+
+  </div>
+</section>
+</main>
+<footer class="site-footer" aria-label="Transparencia sobre el uso de inteligencia artificial">
+  <p>Esta experiencia también pone en práctica lo que propone: fue creada con apoyo de inteligencia artificial y revisión humana. El contenido, las fuentes y las decisiones finales son responsabilidad del equipo.</p>
+</footer>
+<script src="nova-engine.js?v=20260713-final4"></script><script src="script.js?v=20260713-final4"></script>
+</body>
+</html>
