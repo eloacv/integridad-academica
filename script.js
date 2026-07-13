@@ -84,11 +84,10 @@
     if (nextButton && !nextButton.disabled) showScreen(Number(nextButton.dataset.next));
   });
 
-  document.getElementById("brand-home").addEventListener("click", (event) => {
+  document.getElementById("brand-home")?.addEventListener("click", (event) => {
     event.preventDefault();
     window.location.reload();
 });
-  });
 
   // Pantalla 2
   const dilemmaFeedback = {
