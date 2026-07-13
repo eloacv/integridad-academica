@@ -556,5 +556,4 @@
   });
 
   window.addEventListener("load", playHeroIntro);
-
 })();
