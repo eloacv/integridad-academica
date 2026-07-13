@@ -86,7 +86,8 @@
 
   document.getElementById("brand-home").addEventListener("click", (event) => {
     event.preventDefault();
-    showScreen(1);
+    window.location.reload();
+});
   });
 
   // Pantalla 2
