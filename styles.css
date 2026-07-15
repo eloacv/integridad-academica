@@ -1812,29 +1812,39 @@ body.allow-page-scroll .screen[data-screen="8"] .form-section {
 }
 .final-nova-stage { overflow: visible; }
 /* ============================================================
-   FIX RESPONSIVE — Portada (pantalla 1) en móvil
-   Debe ir al final del archivo: pisa .opening-scene (línea ~523)
-   y .nova-speech (línea ~542), que de otro modo ganarían por orden.
+   FIX RESPONSIVE MÓVIL
+   Va al final del archivo: pisa .opening-scene (~523),
+   .nova-dialogue-stage (~538) y .nova-speech (~542).
    ============================================================ */
 @media (max-width: 900px) {
+  /* Portada: una sola columna */
   .opening-scene {
     grid-template-columns: 1fr;
     min-height: auto;
     gap: 1.5rem;
     align-items: start;
   }
+
+  /* Nova + burbuja: sin altura forzada (esto causaba el hueco) */
   .nova-dialogue-stage {
-    min-height: 340px;
-    padding-bottom: 12px;
+    min-height: auto;
+    align-items: center;
+    padding-bottom: 0;
+    gap: .5rem;
   }
   .nova-speech {
     position: static;
     width: 100%;
     max-width: 430px;
-    margin: 0 auto 1rem;
+    margin: 0;
   }
   .nova-speech:after {
     right: 50%;
     transform: translateX(50%);
+  }
+
+  /* Reserva el espacio del footer fijo en TODAS las pantallas */
+  .screen {
+    padding-bottom: calc(var(--disclaimer-h) + 2rem);
   }
 }
