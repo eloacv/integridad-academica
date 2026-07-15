@@ -1848,4 +1848,25 @@ body.allow-page-scroll .screen[data-screen="8"] .form-section {
   .screen {
     padding-bottom: calc(var(--disclaimer-h) + 2rem);
   }
+/* --- Pantalla 2: Nova arriba, botón bajo las opciones --- */
+  .dilemma-grid {
+    gap: 1rem;
+    align-items: start;
+  }
+  .dilemma-stage {
+    display: contents;
+  }
+  .dilemma-stage .nova-character {
+    order: -2;
+    justify-self: center;
+  }
+  .dilemma-speech {
+    order: -1;
+    justify-self: center;
+    margin: 0 auto;
+  }
+  .dilemma-continue {
+    order: 1;
+    justify-self: stretch;
+  }
 }
