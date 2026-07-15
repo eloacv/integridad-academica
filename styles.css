@@ -1827,7 +1827,7 @@ body.allow-page-scroll .screen[data-screen="8"] .form-section {
 
   /* Nova + burbuja: sin altura forzada (esto causaba el hueco) */
   .nova-dialogue-stage {
-    order: -1
+    order: -1;
     min-height: auto;
     align-items: center;
     padding-bottom: 0;
